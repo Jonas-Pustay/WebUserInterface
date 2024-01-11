@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#VideoPlayerSection {
+  padding: 30px 0;
+  background: red;
+}
+
+#VideoPlayer {
+  width: 800px;
+  height: 480px;
+  background: wheat;
+  margin: 0 auto;
+}
+
+#VideoPlayer img {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+#VideoPlayerMenu {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+
+  top: -55px;
+  left: 0%;
+  background: rgba(0,0,0,0.5);
+}
+
+#PlayButton {
+  width: 40px;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+
+  margin: 0 0 0 calc(50% - 22.5px);
+}
+
+.Play {
+    background-image: url("IMG/Play_Button.png");
+}
+
+.Stop {
+    backgrounf-image: url("IMG/Stop_Button.png");
+}
+
