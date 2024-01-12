@@ -44,11 +44,11 @@
   margin: 0 0 0 calc(50% - 22.5px);
 }
 
-.Play {
+#PlayButton.Play {
     background-image: url("IMG/Play_Button.png");
 }
 
-.Stop {
-    backgrounf-image: url("IMG/Stop_Button.png");
+#PlayButton.Stop {
+    background-image: url("IMG/Stop_Button.png");
 }
 
